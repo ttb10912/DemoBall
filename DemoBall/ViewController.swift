@@ -43,8 +43,7 @@ class ViewController: UIViewController {
         reverseRadians = reverseRadians - deltaAngle
         
         
-        print(self.ball.center.x)
-        print(self.view.bounds.size.width - 32)
+   
         
         
         if toTheEnd == false {
@@ -66,7 +65,7 @@ class ViewController: UIViewController {
            
             
         }
-        if toTheEnd == true {
+       else {
             
             if ( self.ball.center.x  <= self.view.bounds.size.width - 30) {
                 
