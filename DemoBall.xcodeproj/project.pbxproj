@@ -14,6 +14,7 @@
 		433D10BC1D89386F00B0BD6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433D10BA1D89386F00B0BD6F /* LaunchScreen.storyboard */; };
 		433D10C71D89386F00B0BD6F /* DemoBallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D10C61D89386F00B0BD6F /* DemoBallTests.swift */; };
 		433D10D21D89386F00B0BD6F /* DemoBallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D10D11D89386F00B0BD6F /* DemoBallUITests.swift */; };
+		433D10E11D893A7900B0BD6F /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 433D10E01D893A7900B0BD6F /* ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		433D10CD1D89386F00B0BD6F /* DemoBallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoBallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		433D10D11D89386F00B0BD6F /* DemoBallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoBallUITests.swift; sourceTree = "<group>"; };
 		433D10D31D89386F00B0BD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		433D10E01D893A7900B0BD6F /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		433D10B01D89386E00B0BD6F /* DemoBall */ = {
 			isa = PBXGroup;
 			children = (
+				433D10DF1D893A5400B0BD6F /* Resource */,
 				433D10B11D89386E00B0BD6F /* AppDelegate.swift */,
 				433D10B31D89386E00B0BD6F /* ViewController.swift */,
 				433D10B51D89386F00B0BD6F /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				433D10D31D89386F00B0BD6F /* Info.plist */,
 			);
 			path = DemoBallUITests;
+			sourceTree = "<group>";
+		};
+		433D10DF1D893A5400B0BD6F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				433D10E01D893A7900B0BD6F /* ball.png */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +242,7 @@
 			files = (
 				433D10BC1D89386F00B0BD6F /* LaunchScreen.storyboard in Resources */,
 				433D10B91D89386F00B0BD6F /* Assets.xcassets in Resources */,
+				433D10E11D893A7900B0BD6F /* ball.png in Resources */,
 				433D10B71D89386F00B0BD6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
